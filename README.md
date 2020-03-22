@@ -1,2 +1,2 @@
 # cartPoleAutoPID
-cartpole is controlled by PID (GA optimization PID parameters)
+This is the PID implementation of cart-pole environment in gym. A PID controller is desinged to cart-pole system to control its position and angle. PID method is proved to be a good control algorithm in many actual applications, but the PID parameters are difficult to obtain. In most cases, we only use try and error to determined PID parameters. In this project, the PID parameters are optimized by the Genetic Algorithm (GA). We use greatpy to implement Genetic Algorithm (GA).
